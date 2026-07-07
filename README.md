@@ -66,6 +66,7 @@ Link will be added once published.
 npm install
 npm run dev
 
+
 🛠️ Tech Stack
 Plasmo — Browser extension framework
 
@@ -80,15 +81,16 @@ Heuristic scoring engine (all local, no API calls)
 chrome.storage.local for history persistence
 
 📊 vs Competitors
-Feature	ZokorOne	Hunter.io	Snov.io	Lusha	Email Extractor
-Extracts emails	✅	✅	✅	✅	✅
-Extracts phones	✅	❌	✅	✅	❌
-Extracts social links	✅	❌	❌	❌	❌
-Contact priority scoring	✅	❌	❌	❌	❌
-100% local (no upload)	✅	❌	❌	❌	✅
-No account required	✅	❌	❌	❌	✅
-Open source	✅	❌	❌	❌	❌
-Free version	✅	Limited	Limited	Limited	Limited
+Feature	               ZokorOne	Hunter.io	Snov.io	Lusha	Email Extractor
+Extracts emails	          ✅    	✅    	✅    	✅     ✅
+Extracts phones	          ✅	    ❌	    ✅	    ✅     ❌
+Extracts social links   	✅    	❌	    ❌     	❌     ❌
+Contact priority scoring	✅	    ❌    	❌	    ❌     ❌
+100% local (no upload)	  ✅	    ❌    	❌    	❌     ✅
+No account required     	✅	    ❌    	❌    	❌     ✅
+Open source	              ✅	    ❌	    ❌    	❌     ❌
+Free version            	✅  	Limited	Limited	Limited	Limited
+
 📄 License
 MIT © ZyanBuilds
 
