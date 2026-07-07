@@ -1,33 +1,67 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# ZokorOne
 
-## Getting Started
+**Privacy-first browser extension that extracts contacts from any website and ranks them by reply likelihood.**
 
-First, run the development server:
+No data ever leaves your device. No account required. 100% local.
 
+---
+
+## ✨ Why ZokorOne
+
+Most contact extractors give you a flat list of emails and phone numbers. Then you have to guess which one is worth your time.
+
+ZokorOne does one thing differently: **it scores every contact by how likely you are to get a reply.**
+
+- 🟢 **Start here** → Personal work email, most likely to reach a real person
+- 🟡 **Try next** → Social media link, public channel
+- 🔴 **Skip** → Generic inbox (info@, support@), rarely read
+
+No more guessing. No more wasted time.
+
+---
+
+## 🔒 Privacy by Design
+
+- **No server. No tracking. No data collection.**
+- Everything runs locally in your browser.
+- History is stored in `chrome.storage.local` — your data stays on your machine.
+- Open source (MIT). Anyone can audit the code.
+
+---
+
+## 🚀 Features
+
+### Free Version
+- Extract emails, phone numbers, and social media links from any website
+- Contact priority scoring (1-10)
+- Status labels: 🟢 likely active, 🟡 unknown, 🔴 possibly inactive
+- Auto-save history (up to 50 entries)
+- Export selected contacts to CSV (up to 15 at a time)
+- One-click copy for any contact
+- Dark mode (follows system preference)
+
+### Pro Version (coming soon)
+- Batch URL processing
+- Unlimited CSV exports without watermark
+- Advanced scoring breakdowns
+- CRM integration
+- Custom scoring rules
+
+---
+
+## 📦 Installation
+
+### Chrome Web Store *(coming soon)*
+Link will be added once published.
+
+### Manual Installation (Developer Mode)
+1. Download or clone this repository
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable **Developer mode** (top right toggle)
+4. Click **Load unpacked** and select the `build/chrome-mv3-dev` folder
+5. The extension is ready to use
+
+### Development
 ```bash
-pnpm dev
-# or
+npm install
 npm run dev
-```
-
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
-
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
-
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
-
-## Making production build
-
-Run the following:
-
-```bash
-pnpm build
-# or
-npm run build
-```
-
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
-
-## Submit to the webstores
-
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
