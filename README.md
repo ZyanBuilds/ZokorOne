@@ -62,6 +62,52 @@ Link will be added once published.
 5. The extension is ready to use
 
 ### Development
-```bash
-npm install
-npm run dev
+
+    npm install
+    npm run dev
+
+---
+
+## 🛠️ Tech Stack
+
+- [Plasmo](https://www.plasmo.com/) — Browser extension framework
+- React + TypeScript
+- `chrome.scripting.executeScript` for page injection
+- Regex-based extraction (emails, phones, social links)
+- Heuristic scoring engine (all local, no API calls)
+- `chrome.storage.local` for history persistence
+
+---
+
+## 📊 vs Competitors
+
+| Feature | ZokorOne | Hunter.io | Snov.io | Lusha | Email Extractor |
+|---------|:---:|:---:|:---:|:---:|:---:|
+| Extracts emails | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Extracts phones | ✅ | ❌ | ✅ | ✅ | ❌ |
+| Extracts social links | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Contact priority scoring | ✅ | ❌ | ❌ | ❌ | ❌ |
+| 100% local (no upload) | ✅ | ❌ | ❌ | ❌ | ✅ |
+| No account required | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Open source | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Free version | ✅ | Limited | Limited | Limited | Limited |
+
+---
+
+## 📄 License
+
+MIT © ZyanBuilds
+
+---
+
+## ⚠️ Disclaimer
+
+ZokorOne is a code provider, not a data processor. All data extraction happens locally on the user's device. The developer assumes no responsibility for how users utilize this tool. Users are responsible for complying with the terms of service of any website they use this extension on.
+
+---
+
+## 🔗 Links
+
+- GitHub: [github.com/ZyanBuilds/ZokorOne](https://github.com/ZyanBuilds/ZokorOne)
+- Twitter: [@Zyan_builds](https://twitter.com/Zyan_builds)
+- Chrome Web Store: *coming soon*
