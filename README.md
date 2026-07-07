@@ -61,12 +61,6 @@ Link will be added once published.
 4. Click **Load unpacked** and select the `build/chrome-mv3-dev` folder
 5. The extension is ready to use
 
-### Development
-```bash
-npm install
-npm run dev
-
-
 🛠️ Tech Stack
 Plasmo — Browser extension framework
 
