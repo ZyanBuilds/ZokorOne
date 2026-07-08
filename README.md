@@ -1,12 +1,8 @@
 # ZokorOne
 
-**Privacy-first browser extension that extracts contacts from any website and ranks them by reply likelihood.**
+**Privacy-first browser extension that extracts contacts from any website and ranks them by contact quality.**
 
 No data ever leaves your device. No account required. 100% local.
-
-[![GitHub stars](https://img.shields.io/github/stars/ZyanBuilds/ZokorOne?style=flat-square)](https://github.com/ZyanBuilds/ZokorOne/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Twitter](https://img.shields.io/twitter/follow/Zyan_builds?style=flat-square&logo=twitter)](https://twitter.com/Zyan_builds)
 
 ---
 
@@ -14,7 +10,7 @@ No data ever leaves your device. No account required. 100% local.
 
 Most contact extractors give you a flat list of emails and phone numbers. Then you have to figure out which one is worth your time. Half the results are `info@`, `support@`, or generic inboxes that rarely get read.
 
-ZokorOne does one thing differently: **it scores every contact by how likely you are to get a reply.**
+ZokorOne does one thing differently: **it scores every contact by how personal and reachable it looks — so you know where to start and what to skip.**
 
 You open a company website, click the extension, and instantly see:
 
@@ -44,15 +40,15 @@ No more guessing. No more wasted time.
 - Status labels: 🟢 likely active, 🟡 unknown, 🔴 possibly inactive
 - Person & company name inference from email and page metadata
 - Auto‑save history (up to 50 entries)
-- Export selected contacts to CSV (up to 15 at a time)
+- Export contacts to CSV (up to 15 per batch; watermark included)
 - One‑click copy for any contact
 - Dark mode (follows system preference)
 
 ### Pro Version *(coming soon)*
-- Batch URL processing
+- Batch URL processing — extract contacts from multiple sites at once
 - Unlimited CSV exports without watermark
 - Advanced scoring breakdowns
-- CRM integration
+- CRM integration via webhooks *(planned)*
 - Custom scoring rules
 
 ---
@@ -90,7 +86,7 @@ Link will be added once published.
 
 ## 📊 vs Competitors
 
-| Feature | ZokorOne | Hunter.io | Snov.io | Lusha | Email Extractor |
+| Feature | ZokorOne | Cloud‑based email finder | All‑in‑one outreach tool | LinkedIn contact tool | Popular Chrome extractor |
 |---------|:---:|:---:|:---:|:---:|:---:|
 | Extracts emails | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Extracts phones | ✅ | ❌ | ✅ | ✅ | ❌ |
@@ -132,13 +128,25 @@ Contributions are welcome! Here's how you can help:
 
 ## 📄 License
 
-MIT © ZyanBuilds — see [LICENSE](LICENSE) for full text.
+MIT © 2026 ZyanBuilds — see [LICENSE](LICENSE) for full text.
 
 ---
 
 ## ⚠️ Disclaimer
 
-ZokorOne is a code provider, not a data processor. All data extraction happens locally on the user's device. The developer assumes no responsibility for how users utilise this tool. Users are responsible for complying with the terms of service of any website they use this extension on.
+ZokorOne is a **code provider**, not a data processor or data controller under any privacy regulation (including GDPR, CCPA, or similar laws). All data extraction and processing occurs locally on the user's device. No data is transmitted to, stored on, or accessible by any third-party server operated by the developer.
+
+**No warranty**: This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. The developer makes no guarantees regarding the accuracy, reliability, or availability of any contact information extracted by this tool.
+
+**User responsibility**: Users are solely responsible for ensuring that their use of this extension complies with applicable laws, regulations, and the terms of service of any website they interact with. This includes, but is not limited to, data protection laws, anti-spam regulations, and website-specific terms. The developer assumes no liability for any damages, losses, or legal consequences arising from the use of this software.
+
+**Contact scoring**: The contact priority scores and status labels (likely active, unknown, possibly inactive) are heuristic estimates based on publicly available page information. They do not constitute verification and should not be treated as guarantees of contact validity or deliverability.
+
+**Acceptable use**: This tool is designed for legitimate business development, research, and personal productivity purposes. Any use for harassment, spamming, data scraping beyond what is visible on a public page, or accessing non-public information is explicitly not endorsed and is done at the user's own risk. The developer reserves the right to take any necessary action to prevent such misuse.
+
+**Third-party content**: The developer does not claim ownership of any contact information extracted from third-party websites. Users should respect the intellectual property rights of the websites they visit.
+
+For questions about this disclaimer or the privacy implications of using ZokorOne, please open a GitHub issue or contact the maintainer.
 
 ---
 
