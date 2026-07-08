@@ -45,10 +45,10 @@ No more guessing. No more wasted time.
 - Dark mode (follows system preference)
 
 ### Pro Version *(coming soon)*
-- Batch URL processing — extract contacts from multiple sites at once
+- Batch processing — extract contacts from multiple sites at once
 - Unlimited CSV exports without watermark
 - Advanced scoring breakdowns
-- CRM integration via webhooks *(planned)*
+- CRM integration *(planned)*
 - Custom scoring rules
 
 ---
@@ -132,6 +132,14 @@ MIT © 2026 ZyanBuilds — see [LICENSE](LICENSE) for full text.
 
 ---
 
+## 🔗 Links
+
+- GitHub: [github.com/ZyanBuilds/ZokorOne](https://github.com/ZyanBuilds/ZokorOne)
+- Twitter: [@Zyan_builds](https://twitter.com/Zyan_builds)
+- Chrome Web Store: *coming soon*
+
+---
+
 ## ⚠️ Disclaimer
 
 ZokorOne is a **code provider**, not a data processor or data controller under any privacy regulation (including GDPR, CCPA, or similar laws). All data extraction and processing occurs locally on the user's device. No data is transmitted to, stored on, or accessible by any third-party server operated by the developer.
@@ -147,11 +155,3 @@ ZokorOne is a **code provider**, not a data processor or data controller under a
 **Third-party content**: The developer does not claim ownership of any contact information extracted from third-party websites. Users should respect the intellectual property rights of the websites they visit.
 
 For questions about this disclaimer or the privacy implications of using ZokorOne, please open a GitHub issue or contact the maintainer.
-
----
-
-## 🔗 Links
-
-- GitHub: [github.com/ZyanBuilds/ZokorOne](https://github.com/ZyanBuilds/ZokorOne)
-- Twitter: [@Zyan_builds](https://twitter.com/Zyan_builds)
-- Chrome Web Store: *coming soon*
